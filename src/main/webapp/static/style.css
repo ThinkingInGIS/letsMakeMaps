@@ -1,0 +1,30 @@
+/*hc add*/
+.hc-add { position: fixed; bottom: 10px; right: 10px; left: auto; background: #ffffff; padding: 15px 15px 10px 15px; border: 1px solid #e5e5e5; max-width: 400px;
+font-size: 12px; color: #666666; z-index: 1000; display: none; -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.07);
+box-shadow: 1px 1px 3px rgba(0,0,0,0.07); }
+
+.hc-add a { color: #339BEB; }
+
+.hc-add a:hover { color: #339BEB; }
+
+.hc-add .media { margin-top: 5px; }
+
+.hc-add .hc-remove { position: absolute; top: 5px; right: 10px; font-weight: 300; cursor: pointer; color: #666666; }
+
+.hc-add .hc-remove a { color: #666666; }
+
+.hc-add .media-heading { margin-bottom: 0px; }
+
+.hc-add .media-heading a { color: #333333; text-decoration: none; }
+
+.hc-add .media-body p { padding-top: 10px; }
+
+.hc-add .media-left img { max-width: 120px; }
+
+.hc-add .ribbon { font-size: 14px; color: #ffffff; font-weight: 300; position: relative; z-index: 2; padding-top: 2px; top: -3px; font-weight: 700; }
+
+.hc-add .ribbon:after { position: absolute; top: 0; left: -21px; height: 26px; background-color: #55acee; content: ""; width: 115px; z-index: -1;
+border: 1px solid #339BEB; border-left: none; }
+
+.hc-add .ribbon:before { content: ""; width: 0; height: 0; border-style: solid; border-width: 0 5px 7px 0; border-color: transparent #339BEB transparent transparent;
+position: absolute; bottom: -10px; left: -21px; }
